@@ -1,0 +1,136 @@
+[
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "FromSoftware, Inc."
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
+    "title": "ELDEN RING",
+    "publisher": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "screenshot_sources": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1790290043",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg?t=1790290043",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1790290043"
+    ],
+    "slug": "elden-ring",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/1245620/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "CD PROJEKT RED"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+    "title": "Cyberpunk 2077",
+    "publisher": [
+      "CD PROJEKT RED"
+    ],
+    "screenshot_sources": [],
+    "slug": "cyberpunk-2077",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/1091500/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "Supergiant Games"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
+    "title": "Hades",
+    "publisher": [
+      "Supergiant Games"
+    ],
+    "screenshot_sources": [],
+    "slug": "hades",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/1145360/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "Team Cherry"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+    "title": "Hollow Knight",
+    "publisher": [
+      "Team Cherry"
+    ],
+    "screenshot_sources": [],
+    "slug": "hollow-knight",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/367520/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "Larian Studios"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+    "title": "Baldur's Gate 3",
+    "publisher": [
+      "Larian Studios"
+    ],
+    "screenshot_sources": [],
+    "slug": "baldurs-gate-3",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/1086940/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "Playground Games"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+    "title": "Forza Horizon 5",
+    "publisher": [
+      "Xbox Game Studios"
+    ],
+    "screenshot_sources": [],
+    "slug": "forza-horizon-5",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/1551360/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "ConcernedApe"
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+    "title": "Stardew Valley",
+    "publisher": [
+      "ConcernedApe"
+    ],
+    "screenshot_sources": [],
+    "slug": "stardew-valley",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/413150/"
+  },
+  {
+    "usage": "Private design preview. Copyright remains with the respective owners. Redistribution/public-launch rights have not been established.",
+    "developer": [
+      "Maddy Makes Games Inc.",
+      "Extremely OK Games, Ltd."
+    ],
+    "wide_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+    "title": "Celeste",
+    "publisher": [
+      "Maddy Makes Games Inc."
+    ],
+    "screenshot_sources": [],
+    "slug": "celeste",
+    "cover_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg",
+    "fetched": "2026-10-19",
+    "store_url": "https://store.steampowered.com/app/504230/"
+  }
+]
