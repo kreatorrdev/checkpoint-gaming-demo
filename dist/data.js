@@ -9,3 +9,5 @@ window.CHECKPOINT_GAMES = [
   {id:'celeste', title:'Celeste', year:2018, genres:['Adventure','Indie'], platforms:['PC','PlayStation','Xbox','Nintendo'], developer:'Maddy Makes Games / Extremely OK Games', tag:'Keep climbing', summary:'One mountain, countless small victories. A precise platforming adventure about persistence, self-doubt, and finding the next foothold when the summit feels far away.', note:'For the quiet satisfaction of trying again.'}
 ];
 window.CHECKPOINT_STATUSES = ['Wishlist','Backlog','Playing','Completed','On Hold'];
+
+window.CHECKPOINT_STORE_URLS = {"elden-ring":"https://store.steampowered.com/app/1245620/","cyberpunk-2077":"https://store.steampowered.com/app/1091500/","hades":"https://store.steampowered.com/app/1145360/","hollow-knight":"https://store.steampowered.com/app/367520/","baldurs-gate-3":"https://store.steampowered.com/app/1086940/","forza-horizon-5":"https://store.steampowered.com/app/1551360/","stardew-valley":"https://store.steampowered.com/app/413150/","celeste":"https://store.steampowered.com/app/504230/"};

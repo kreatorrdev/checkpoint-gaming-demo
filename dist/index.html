@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101214">
-  <meta name="description" content="CHECKPOINT: a gaming editorial and community design preview. Discover your next game and try a personal library.">
+  <meta name="description" content="Find your next great escape. Explore eight remarkable games and try a personal game library, with no account required.">
+  <meta name="robots" content="noindex, nofollow">
   <title>Discover · CHECKPOINT</title>
   <link rel="icon" type="image/svg+xml" href="assets/checkpoint.svg">
   <link rel="stylesheet" href="styles.css">
   <script defer src="data.js"></script>
+  <script defer src="demo-state.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -17,12 +19,17 @@
     <div class="header-inner">
       <a class="brand" href="#/" aria-label="Checkpoint home"><span class="brand-mark" aria-hidden="true"></span>CHECKPOINT<span class="brand-dot">•</span></a>
       <nav aria-label="Main navigation"><a href="#/" data-nav="home">Discover</a><a href="#/games" data-nav="games">Games</a><a href="#/my-library" data-nav="library">My Library <span id="nav-count">0</span></a></nav>
-      <span class="preview-pill"><span></span>DESIGN PREVIEW</span>
+      <button id="demo-entry" class="demo-entry" type="button" data-action="start-demo">Try demo <span aria-hidden="true">↗</span></button>
     </div>
   </header>
   <main id="main" tabindex="-1"></main>
-  <footer class="site-footer"><div><a class="brand" href="#/">CHECKPOINT<span class="brand-dot">•</span></a><p>For the games that stay with you.</p></div><p>Independent spirit. Shared adventures.<br><span>Design preview · Library saved in this browser.</span></p><a href="#/games">Find your next game <span aria-hidden="true">↗</span></a></footer>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <noscript><p class="noscript">Enable JavaScript to explore this interactive design preview.</p></noscript>
+  <footer class="site-footer"><div><a class="brand" href="#/">CHECKPOINT<span class="brand-dot">•</span></a><p>For the games that stay with you.</p></div><p>A small collection. Your next great escape.<br><span>Portfolio demo · Your library stays in this browser.</span><br><a class="credits-link" href="#/about">About this demo & artwork</a></p><a href="#/games">Find your next game <span aria-hidden="true">↗</span></a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="reset-dialog" class="demo-dialog" aria-labelledby="reset-title" aria-describedby="reset-description">
+    <p class="eyebrow">A FRESH CHECKPOINT</p><h2 id="reset-title">Reset your demo?</h2>
+    <p id="reset-description">This restores five sample games and their original statuses in this browser. You can undo the change afterwards.</p>
+    <div class="dialog-actions"><button class="button" type="button" data-action="cancel-reset" autofocus>Keep my library</button><button class="button primary" type="button" data-action="confirm-reset">Reset demo</button></div>
+  </dialog>
+  <noscript><p class="noscript">Enable JavaScript to explore the catalog and try your demo library. No account is required.</p></noscript>
 </body>
 </html>
