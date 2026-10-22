@@ -1,6 +1,6 @@
 # CHECKPOINT — Portfolio Demo
 
-This is the finished, buildless CHECKPOINT portfolio demo. The folder name `prototype/` is retained for source continuity. It contains Home, Games, Game Detail, My Library, and an About page for the demo and artwork. The catalog has eight curated games; the library is stored only in the current browser.
+This repository contains the finished, buildless CHECKPOINT portfolio demo. It is kept in a `prototype/` folder in the broader local workspace; that folder is the root of this GitHub repository. The demo contains Home, Games, Game Detail, My Library, and an About page for the demo and artwork. The catalog has eight curated games; the library is stored only in the current browser.
 
 ## Run and validate
 
@@ -14,7 +14,7 @@ npm test
 
 Open `http://127.0.0.1:4173`. No `npm install`, database, email service, or build step is needed. To use another port, set `CHECKPOINT_DEMO_PORT` before starting the server. The deployable static folder is `dist/`, declared in `.openai/hosting.json`.
 
-For Vercel, deploy this `prototype/` folder as the project root. `vercel.json` selects the buildless `dist/` output, so the optional `../web/` application is excluded. The existing project is `kreatorrdev/checkpoint-gaming-demo`. After linking this directory with the Vercel CLI, run `vercel deploy --prod --scope kreatorrdev` for updates. Keep Vercel Authentication enabled for **All Deployments** while public artwork reuse rights remain unresolved. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
+For Vercel, deploy the repository root. `vercel.json` selects the buildless `dist/` output. The existing project is `kreatorrdev/checkpoint-gaming-demo`. After linking this directory with the Vercel CLI, run `vercel deploy --prod --scope kreatorrdev` for updates. Git integration is not configured, so pushing to GitHub alone does not update Vercel. Keep Vercel Authentication enabled for **All Deployments** while public artwork reuse rights remain unresolved. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
 
 ## Demo journey
 
@@ -40,6 +40,6 @@ Library entries are scoped to the browser profile and site origin. They do not s
 - `asset-sources.json`: artwork origins and current usage status.
 - `serve.mjs`: local static server and preview helper.
 
-The demo deliberately omits accounts, database-backed persistence, public reviews/profiles, admin tools, articles, and community metrics. The separate `../web/` application preserves an earlier full-stack technical implementation, but the demo does not depend on it.
+The demo deliberately omits accounts, database-backed persistence, public reviews/profiles, admin tools, articles, and community metrics. An earlier full-stack technical reference exists separately in the broader local workspace; this repository does not depend on it.
 
 Artwork and game names belong to their respective owners. The included artwork is for the existing private preview. Public reuse rights have not been established; keep the deployment private until rights are confirmed or assets are replaced. See the in-product **About this demo & artwork** page for credits.
