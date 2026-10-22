@@ -14,7 +14,7 @@ npm test
 
 Open `http://127.0.0.1:4173`. No `npm install`, database, email service, or build step is needed. To use another port, set `CHECKPOINT_DEMO_PORT` before starting the server. The deployable static folder is `dist/`, declared in `.openai/hosting.json`.
 
-For Vercel, deploy the repository root. `vercel.json` selects the buildless `dist/` output. The existing project is `kreatorrdev/checkpoint-gaming-demo`, connected to this private GitHub repository. Pushing to `main` triggers a production deployment. A manual update can also use `vercel deploy --prod --scope kreatorrdev` from this directory. Vercel Authentication currently protects **All Deployments**; a Vercel shareable link can grant access without team sign-in. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
+For Vercel, deploy the repository root. `vercel.json` selects the buildless `dist/` output. The existing project is `kreatorrdev/checkpoint-gaming-demo`, connected to this private GitHub repository with `main` selected as its production branch. Confirm that a new Git push creates a deployment before relying on automatic publishing; the first documentation push after connecting did not appear in the deployment list. A manual update can use `vercel deploy --prod --scope kreatorrdev` from this directory. Vercel Authentication protects **All Deployments**; a Vercel shareable link grants viewing without team sign-in. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
 
 ## Demo journey
 
