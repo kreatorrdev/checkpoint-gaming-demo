@@ -27,7 +27,9 @@ Library entries are scoped to the browser profile and site origin. They do not s
 ## Source map
 
 - `dist/index.html`: page shell, navigation, and reset confirmation dialog.
-- `dist/styles.css`: visual system, responsive layouts, motion rules.
+- `dist/styles.css`: original visual system, layouts, and motion rules.
+- `dist/design.css`: softened Manrope typography, rounded surfaces, yellow/cyan accents, and mobile refinements.
+- `dist/assets/fonts/`: self-hosted Manrope variable font and its SIL Open Font License.
 - `dist/data.js`: eight game records and official store credit links.
 - `dist/demo-state.js`: validated, versioned, browser-local library state.
 - `dist/app.js`: routes, discovery controls, library UI, and feedback.

@@ -21,6 +21,14 @@ test('the deployable shell loads only local application scripts in the required 
   const scripts=[...html.matchAll(/<script defer src="([^"]+)"/g)].map(match=>match[1]);
   assert.deepEqual(scripts,['data.js','demo-state.js','app.js']); for(const script of scripts) await access(path.join(root,script));
 });
+test('the softer display font and design layer are packaged for offline use', async () => {
+  assert.match(html, /href="design\.css"/);
+  const design=await readFile(path.join(root,'design.css'),'utf8');
+  assert.match(design, /Manrope-wght\.ttf/);
+  await access(path.join(root,'assets/fonts/Manrope-wght.ttf'));
+  const license=await readFile(path.join(root,'assets/fonts/OFL.txt'),'utf8');
+  assert.match(license, /SIL OPEN FONT LICENSE Version 1\.1/);
+});
 test('the demo has no account/backend dependency or unimplemented community promises', () => {
   assert.equal(/\bfetch\s*\(|XMLHttpRequest|WebSocket|\/api\/auth/.test(app),false);
   assert.equal(/reviews.{0,30}(planned|arrive)|profiles.{0,30}(planned|arrive)/i.test(app),false);
