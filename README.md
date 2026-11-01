@@ -1,5 +1,8 @@
 # CHECKPOINT — Portfolio Demo
 
+> Source documentation review — 1 November 2026: the source repository is public. Earlier dated references to private source access describe the previous repository setting. Hosted access, private user data and historical verification retain their documented scope.
+
+
 This repository contains the finished, buildless CHECKPOINT portfolio demo. It is kept in a `prototype/` folder in the broader local workspace; that folder is the root of this GitHub repository. The demo contains Home, Games, Game Detail, My Library, and an About page for the demo and artwork. The catalog has eight curated games; the library is stored only in the current browser.
 
 ## Run and validate
@@ -14,7 +17,7 @@ npm test
 
 Open `http://127.0.0.1:4173`. No `npm install`, database, email service, or build step is needed. To use another port, set `CHECKPOINT_DEMO_PORT` before starting the server. The deployable static folder is `dist/`, declared in `.openai/hosting.json`.
 
-For Vercel, deploy the repository root. `vercel.json` selects the buildless `dist/` output. The existing project is `kreatorrdev/checkpoint-gaming-demo`, connected to this private GitHub repository with `main` selected as its production branch. Pushing to `main` creates a production deployment; the first push after connecting was verified as `READY` in Vercel after a short delay. A manual update can use `vercel deploy --prod --scope kreatorrdev` from this directory. Vercel Authentication protects **All Deployments**; a Vercel shareable link grants viewing without team sign-in. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
+For Vercel, deploy the repository root. `vercel.json` selects the buildless `dist/` output. The existing project is `kreatorrdev/checkpoint-gaming-demo`, connected to this public GitHub repository with `main` selected as its production branch. Pushing to `main` creates a production deployment; the first push after connecting was verified as `READY` in Vercel after a short delay. A manual update can use `vercel deploy --prod --scope kreatorrdev` from this directory. Vercel Authentication protects **All Deployments**; a Vercel shareable link grants viewing without team sign-in. The production URL is <https://checkpoint-gaming-demo.vercel.app>.
 
 ## Demo journey
 
@@ -42,4 +45,10 @@ Library entries are scoped to the browser profile and site origin. They do not s
 
 The demo deliberately omits accounts, database-backed persistence, public reviews/profiles, admin tools, articles, and community metrics. An earlier full-stack technical reference exists separately in the broader local workspace; this repository does not depend on it.
 
-Artwork and game names belong to their respective owners. The included artwork is for the existing private preview. Public reuse rights have not been established; keep the deployment private until rights are confirmed or assets are replaced. See the in-product **About this demo & artwork** page for credits.
+Artwork and game names belong to their respective owners. The artwork was collected for the original private preview. Public repository visibility does not establish redistribution or reuse rights for these assets. Confirm those rights or replace the artwork before reusing it in another publication. See the in-product **About this demo & artwork** page for credits.
+
+## Maintaining this project
+
+See the [contribution guide](CONTRIBUTING.md) for setup, relevant checks, documentation and configuration rules.
+
+Browse the [documentation index](docs/README.md) for current guides and historical records.
